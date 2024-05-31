@@ -55,14 +55,20 @@ function validateForm() {
     return isUsernameValid && isPasswordValid;
 }
 
+
 document.addEventListener('DOMContentLoaded', (event) => {
+	
     const signupButton = document.getElementById('signup-button');
+    
     signupButton.addEventListener('click', () => {
         // 회원가입 성공 팝업
         if (validateForm()) {
-            alert('가입에 성공하였습니다.');
-            window.location.href = "mainpage.html";
+            alert('회원가입이 정상적으로 완료되었습니다.');
+            window.location.href = "${pageContext.request.contextPath}/template/login.jsp";
         }
     });
+    
 });
+
+
 
