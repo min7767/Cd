@@ -1,16 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>발로렌트</title>
-        <!-- css -->
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/design.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>발로렌트</title>
+    <!-- css -->
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/design.css">
+</head>
 
-    <body>
-     <form method="post" action="${pageContext.request.contextPath}/action/loginAction.jsp">
+<body>
+    <form method="post" action="${pageContext.request.contextPath}/action/loginAction.jsp">
         <div class="login-container">
             <h1 class="title">로그인</h1>
             <div class="input-group">
@@ -24,6 +24,6 @@
                 <a href="${pageContext.request.contextPath}/template/signup.jsp">회원가입</a>
             </div>
         </div>
-     </form>
-    </body>
+    </form>
+</body>
 </html>
