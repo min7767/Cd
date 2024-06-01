@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>발로렌트</title>
     <!-- css -->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/design.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/design.css?after">
+    
 </head>
 
 <body>
+	<button class="home-button" onclick="window.location.href='/template/mainpage.html'">홈페이지로 돌아가기</button>
     <form method="post" action="${pageContext.request.contextPath}/action/loginAction.jsp">
         <div class="login-container">
             <h1 class="title">로그인</h1>
