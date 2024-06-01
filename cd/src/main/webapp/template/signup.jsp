@@ -15,8 +15,8 @@
             <div class="signup-container">
                 <h1 class="title">회원가입</h1>
                 <div class="input-group">
-                    <label for="username" class="input-label">아이디</label>
-                    <input type="text" id="username" placeholder="아이디" onkeyup="checkUsername()" name="userEmail">
+                    <label for="username" class="input-label">이메일</label>
+                    <input type="text" id="username" placeholder="이메일" onkeyup="checkUsername()" name="userEmail">
                     <small id="username-message"></small>
                 </div>
                 <div class="input-group">

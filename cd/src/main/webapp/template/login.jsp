@@ -14,7 +14,7 @@
         <div class="login-container">
             <h1 class="title">로그인</h1>
             <div class="input-group">
-                <input type="text" placeholder="아이디" name="userEmail">
+                <input type="text" placeholder="이메일" name="userEmail">
             </div>
             <div class="input-group">
                 <input type="password" placeholder="비밀번호" name="userPassword">
